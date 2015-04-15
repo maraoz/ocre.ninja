@@ -1,5 +1,8 @@
 <div id="ytplayer">
 </div>
+<div id="footer" style="text-align:center;margin-left: auto;margin-right: auto;">
+  Made with <span style="color:#FFA500;">&#9829;</span> by <a href="https://twitter.com/maraoz">maraoz</a>.
+</div>
 
 <script>
   var body = document.body;
@@ -21,7 +24,7 @@
 
   function onYouTubePlayerAPIReady() {
     player = new YT.Player('ytplayer', {
-      height: height - 20,
+      height: height - 40,
       width: width - 20,
       videoId: 'EehdIcypknY'
     });
